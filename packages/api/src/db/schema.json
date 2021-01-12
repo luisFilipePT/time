@@ -1,0 +1,15 @@
+{
+  "project": {
+    "id": "string",
+    "createdAt": "string",
+    "name": "string",
+    "description": "string",
+    "time": "array"
+  },
+  "time":{
+    "id": "string",
+    "createdAt": "string",
+    "amount": "number",
+    "description": "string"
+  }
+}

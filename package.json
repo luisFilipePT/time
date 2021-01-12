@@ -1,0 +1,28 @@
+{
+  "name": "tt-app",
+  "version": "1.0.0",
+  "description": "Simple time tracking application",
+  "main": "index.js",
+  "author": "Luis Filipe",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+    "scripts": {
+    "lint": "scripty",
+    "clean": "scripty",
+    "start": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
+  }
+}
